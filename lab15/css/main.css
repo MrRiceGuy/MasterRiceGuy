@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+.container{
+
+    display: flex;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#header{
+    position: fixed;
+    display: flex;
+    background-color:#6495ed;
+    height: 10vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.nav{
+    display: flex;
+    list-style-type: none;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	text-decoration: none;
+}
+
+.nav li a{
+    color :black;
+    text-decoration:none;
+}
+
+#centerMass{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+     width: 100%;
+}
+
+
+#left{
+    display: flex;
+   
+    height: 80vh;
+    width: 10vw;
+    background-color: rgb(180, 127, 47);
+}
+
+#left p{
+    font: normal normal normal 5em/1em Georgia, serif;
+}
+
+#center{
+    display:flex;
+    flex-direction: column;
+    width: 80vw;
+    background-color: rgb(0, 202, 135);
+}
+
+
+#logging{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#textbox{
+        height: 15vh;
+        width: 35vw;
+
+}
+button{
+    height: 5vh;
+    width: 35vw;
+}
+
+
+
+#right{
+    display: flex;
+    justify-content: flex-end;
+    float:right;
+    height: 80vh;
+    width: 10vw;
+    background-color: rgb(180, 127, 47);
+}
+
+#saginaw{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.aboutMeList li{
+text-decoration: none;
+list-style-type: none;
+}
+
+.photo ul{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.photo ul li{
+    height: 100px;
+    width: 30%;
+    list-style-type: none;
+    background-image: url("../images/1.jpg");
+    background-size: 100%;
+    
+}
+
+#kawasaki{
+    height: 40vh;
+    width: 40vw;
+}
+footer{
+    background-color: #a7b399;
+}
